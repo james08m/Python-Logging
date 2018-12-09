@@ -1,5 +1,5 @@
 """
-Helpful link ti logging basics
+Helpful link for logging basics
 https://docs.python.org/2/library/string.html
 https://docs.python.org/2.0/ref/strings.html
 https://docs.python.org/2/howto/logging.html
