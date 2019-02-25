@@ -33,7 +33,7 @@ logger.setLevel(logging.DEBUG)                            # Set logging level to
 console_handler = logging.StreamHandler()
 console_handler.setLevel(logging.DEBUG)                   # Can select a different logging lvl for the console if needed
 
-# Create formatter
+# Create formatter for the console handler
 formatter = logging.Formatter(log_format)                 # Can select a different log strings format for the console if needed
 
 # Add the formatter to console handler
@@ -42,7 +42,7 @@ console_handler.setFormatter(formatter)
 # Add the console handler to logger
 logger.addHandler(console_handler)
 
-# How to use it
+# How to implement it your code
 logger.debug("This is a simple debug message")
 logger.info("This is a simple informative message")
 logger.warning("This is a message to remember that you have to be careful over here")
